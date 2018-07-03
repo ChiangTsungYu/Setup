@@ -1,0 +1,4 @@
+SELECT NOW();
+
+SET TIME_ZONE='+8:00';
+SHOW VARIABLES LIKE '%time_zone%';
