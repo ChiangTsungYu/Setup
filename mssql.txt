@@ -1,0 +1,6 @@
+[MSSQL] 重置自動編號(識別計數器)的語法
+DBCC CHECKIDENT (form, reseed, 12)
+
+
+[MSSQL] 重置自動編號(識別計數器)的語法
+DBCC CHECKIDENT (esis_user, reseed, 12)
