@@ -1,0 +1,13 @@
+{
+  "source": {
+    "remote": {
+      "host": "http://192.168.70.60:59200"
+    },
+    "index": "twitter",
+    "type": "tweet"
+  },
+  "dest": {
+    "index": "twitter3",
+    "type": "tweet"
+  }
+}
