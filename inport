@@ -11,3 +11,29 @@
     "type": "tweet"
   }
 }
+
+
+
+---http://192.168.70.60:59201/
+---_reindex
+---POST
+{
+  "source": {
+    "remote": {
+      "host": "http://192.168.70.60:59200"
+    },
+    "index": "twitter",
+    "type": "favorite
+  },
+  "dest": {
+    "index": "twitter2",
+    "type": "favorite"
+  }
+}
+
+
+********* 第三次 friend *********
+---http://192.168.70.60:59201/
+---twitter2/_mapping/friend
+---PUT
+
